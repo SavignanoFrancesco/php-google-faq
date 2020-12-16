@@ -45,6 +45,8 @@
     <head>
         <meta charset="utf-8">
         <title>php-google-faq</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>

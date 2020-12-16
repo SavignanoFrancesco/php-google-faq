@@ -7,7 +7,6 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 .container::after {
   clear: both;
@@ -31,20 +30,22 @@ a {
 }
 
 h1, h2, h3 h4, h5, p, span {
-  color: black;
+  color: #3c4043;
   font-size: 14px;
   padding: 10px 4px;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 21px;
 }
 
 p {
-  font-size: 16.8px;
+  font-size: 14px;
   padding: 10px 4px;
+  line-height: 22px;
 }
 
 #faq-section .container {
-  padding: 80px;
+  padding: 80px 96px;
 }

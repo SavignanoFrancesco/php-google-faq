@@ -1,5 +1,5 @@
 #faq-section{
     .container{
-        padding: $section_padding;
+        padding: $section_padding ($section_padding * 1.2);
     }
 }
