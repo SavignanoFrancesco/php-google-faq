@@ -34,8 +34,8 @@
                 font-size: $font-size * 2;
                 border-radius: 50%;
                 &:first-of-type{
-                    padding:  ($spacing * 0.4) ($spacing * 0.5);
-                    font-size: $font-size * 1.8;
+                    padding:  ($spacing * 0.5) ($spacing * 0.5);
+                    font-size: $font-size * 1.4;
                 }
                 &:hover{
                     background: rgba($brand_secondary,0.1);

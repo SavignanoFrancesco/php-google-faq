@@ -61,7 +61,7 @@
                     <span>Privacy e termini</span>
                 </div>
                 <div class="right">
-                    <i class="fab fa-buromobelexperte"></i>
+                    <i class="fas fa-th"></i>
                     <i class="fas fa-user-circle"></i>
                 </div>
             </div>
