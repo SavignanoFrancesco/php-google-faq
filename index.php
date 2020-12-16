@@ -47,6 +47,7 @@
         <title>php-google-faq</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>
@@ -58,6 +59,10 @@
                         <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="">
                     </a>
                     <span>Privacy e termini</span>
+                </div>
+                <div class="right">
+                    <i class="fab fa-buromobelexperte"></i>
+                    <i class="fas fa-user-circle"></i>
                 </div>
             </div>
             <div id="bottom-header">
