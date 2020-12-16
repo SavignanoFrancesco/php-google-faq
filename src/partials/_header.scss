@@ -1,7 +1,9 @@
 #header{
-
-    padding: ($spacing * 0.6) ($spacing * 0.8);
+    border-bottom: 1px solid rgba($brand_secondary,0.3);
+    padding: ($spacing * 0.4) 0;
+    padding-bottom: 0;
     #upper-header{
+        padding:  0 ($spacing * 0.7);
         @include flex(row,space-between,center);
         .left{
             @include flex(row,flex-start,center);
@@ -12,12 +14,14 @@
                 }
             }
             span{
+                // font-weight: bold;
+                letter-spacing: -0.5px;
                 font-size: $font_size * 1.6;
                 padding: 0;
                 margin: 0;
                 padding-left: 2px;
                 padding-bottom: $spacing * 0.4;
-                color: rgba($brand_secondary,0.9);
+                color: rgba($brand_secondary,0.8);
                 display: inline-block;
             }
         }
@@ -36,6 +40,26 @@
                 &:hover{
                     background: rgba($brand_secondary,0.1);
                     cursor: pointer;
+                }
+            }
+        }
+    }
+    #bottom-header{
+
+
+        ul{
+            @include flex(row,flex-start,center);
+            li{
+                span{
+                    color: rgba($brand_secondary,0.8);
+                    display: inline-block;
+                    font-size: $font_size ;
+                    font-weight: bold;
+                    padding: ($spacing * 0.4) ($spacing * 0.8);
+                    &.active{
+                        color: $brand_tertiary;
+                        border-bottom: 3px solid $brand_tertiary;
+                    }
                 }
             }
         }

@@ -26,7 +26,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: dodgerblue;
+  color: #3367d6;
 }
 
 h1, h2, h3 h4, h5, p, span {
@@ -47,9 +47,12 @@ p {
 }
 
 #header {
-  padding: 12px 16px;
+  border-bottom: 1px solid rgba(60, 64, 67, 0.3);
+  padding: 8px 0;
+  padding-bottom: 0;
 }
 #header #upper-header {
+  padding: 0 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,12 +68,13 @@ p {
   width: 70px;
 }
 #header #upper-header .left span {
+  letter-spacing: -0.5px;
   font-size: 22.4px;
   padding: 0;
   margin: 0;
   padding-left: 2px;
   padding-bottom: 8px;
-  color: rgba(60, 64, 67, 0.9);
+  color: rgba(60, 64, 67, 0.8);
   display: inline-block;
 }
 #header #upper-header .right {
@@ -92,6 +96,23 @@ p {
 #header #upper-header .right i:hover {
   background: rgba(60, 64, 67, 0.1);
   cursor: pointer;
+}
+#header #bottom-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header #bottom-header ul li span {
+  color: rgba(60, 64, 67, 0.8);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+#header #bottom-header ul li span.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
 }
 
 #faq-section .container {

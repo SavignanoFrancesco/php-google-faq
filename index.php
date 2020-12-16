@@ -66,7 +66,43 @@
                 </div>
             </div>
             <div id="bottom-header">
-
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Introduzione
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Norme sulla privacy
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Termini di servizio
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Tecnologie
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="active">
+                                Domande frequenti
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
 
