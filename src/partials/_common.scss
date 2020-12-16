@@ -7,6 +7,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    border: 1px solid black;
 
     &::after {
         @include clearfix;
@@ -23,5 +24,19 @@ ul{
 
 a{
     text-decoration: none;
-    color: unset;
+    color: $brand_tertiary;
+}
+
+h1, h2, h3 h4, h5, p, span{
+    color: $brand_secondary;
+    font-size: $font_size;
+    padding: ($spacing * 0.5) ($spacing * 0.2);
+}
+
+h1{
+    font-size: $font_size * 2;
+}
+
+p{
+    font-size: $font_size * 1.2;
 }

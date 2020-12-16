@@ -17,7 +17,7 @@
 
         ];
 
-    echo var_dump($faqs);
+    // echo var_dump($faqs);
  ?>
 
 
@@ -29,34 +29,36 @@
         <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>
-        <div class="container">
+        <section id="faq-section">
+            <div class="container">
 
-            <?php
+                <?php
 
-            foreach ($faqs as $faq_key => $faq_value) {
-
-                    ?>
-
-                    <h1><?php echo $faq_value["question"]; ?></h1>
-
-                    <?php
-
-                    foreach ($faq_value["answers"] as $answer) {
+                foreach ($faqs as $faq_key => $faq_value) {
 
                         ?>
-                        <p><?php echo $answer; ?></p>
+
+                        <h1><?php echo $faq_value["question"]; ?></h1>
+
                         <?php
 
-                    }
+                        foreach ($faq_value["answers"] as $answer) {
 
-                     ?>
+                            ?>
+                            <p><?php echo $answer; ?></p>
+                            <?php
 
-                    <?php
+                        }
 
-            }
+                         ?>
 
-            ?>
+                        <?php
 
-        </div>
+                }
+
+                ?>
+
+            </div>
+        </section>
     </body>
 </html>
