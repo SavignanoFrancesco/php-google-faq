@@ -5,18 +5,18 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     // border: 1px solid black;
 
-    &::after {
-        @include clearfix;
-    }
+    // &::after {
+    //     @include clearfix;
+    // }
 }
 
-.clearfix::after{
-    @include clearfix;
-}
+// .clearfix::after{
+//     @include clearfix;
+// }
 
 ul{
     list-style-type: none;

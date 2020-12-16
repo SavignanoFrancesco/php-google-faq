@@ -5,19 +5,8 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-}
-.container::after {
-  clear: both;
-  display: table;
-  content: "";
-}
-
-.clearfix::after {
-  clear: both;
-  display: table;
-  content: "";
 }
 
 ul {
@@ -115,6 +104,52 @@ p {
   border-bottom: 3px solid #3367d6;
 }
 
+#footer {
+  margin: 0;
+  padding: 4px 0;
+  background: rgba(60, 64, 67, 0.05);
+  border-top: 1px solid rgba(60, 64, 67, 0.06);
+}
+#footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .container .left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#footer .container .left ul li {
+  display: inline-block;
+}
+#footer .container .left ul li a span {
+  display: inline-block;
+  font-size: 11.2px;
+  color: rgba(60, 64, 67, 0.6);
+  letter-spacing: -0.5px;
+}
+#footer .container .left ul i {
+  font-size: 1.4px;
+  margin: 4px;
+}
+#footer .container .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#footer .container .right i {
+  color: #3367d6;
+  margin-right: 4px;
+  font-size: 21px;
+}
+#footer .container .right select {
+  padding-right: 100px;
+}
+
 #faq-section .container {
-  padding: 80px 96px;
+  padding: 40px 0;
 }

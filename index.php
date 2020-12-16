@@ -138,6 +138,47 @@
             </div>
         </section>
 
+        <footer id="footer">
+            <div class="container">
+                <div class="left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>Google</span>
+                            </a>
+                        </li>
+                        <i class="fas fa-circle"></i>
+                        <li>
+                            <a href="#">
+                                <span>Tutto su Google    </span>
+                            </a>
+                        </li>
+                        <i class="fas fa-circle"></i>
+                        <li>
+                            <a href="#">
+                                <span>Privacy</span>
+                            </a>
+                        </li>
+
+                        <i class="fas fa-circle"></i>
+
+                        <li>
+                            <a href="#">
+                                <span>Termini</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <i class="fas fa-language"></i>
+                    <select class="language" name="">
+                        <option value="italian">Italiano</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+            </div>
+
+        </footer>
 
     </body>
 </html>

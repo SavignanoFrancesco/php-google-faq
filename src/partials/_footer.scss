@@ -1,0 +1,44 @@
+#footer{
+    margin: 0;
+    padding: $spacing * 0.2 0;
+    background: rgba($brand_secondary,0.05);
+    border-top: 1px solid rgba($brand_secondary,0.06);
+    .container{
+        // border: 1px solid black;
+        @include flex(row,space-between,center);
+        .left{
+            ul{
+                @include flex(row,flex-start,center);
+                li{
+                    // @include flex(row,center,center);
+                    display: inline-block;
+                    a{
+                        span{
+                            display: inline-block;
+                            font-size: $font-size * 0.8;
+                            color: rgba($brand_secondary, 0.6);
+                            letter-spacing: -0.5px;
+                        }
+
+                    }
+                }
+                i{
+                    font-size: $font-size * 0.1;
+                    margin: $spacing * 0.2;
+                }
+            }
+        }
+        .right{
+            // border: 1px solid black;
+            @include flex(row,flex-end,center);
+            i{
+                color: $brand_tertiary;
+                margin-right: $spacing * 0.2;
+                font-size: $font_size * 1.5;
+            }
+            select{
+                padding-right: $spacing * 5;
+            }
+        }
+    }
+}
