@@ -50,6 +50,21 @@
         <link rel="stylesheet" href="dist/app.css">
     </head>
     <body>
+
+        <header id="header">
+            <div id="upper-header">
+                <div class="left">
+                    <a href="#">
+                        <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="">
+                    </a>
+                    <span>Privacy e termini</span>
+                </div>
+            </div>
+            <div id="bottom-header">
+
+            </div>
+        </header>
+
         <section id="faq-section">
             <div class="container">
 
@@ -81,5 +96,7 @@
 
             </div>
         </section>
+
+
     </body>
 </html>

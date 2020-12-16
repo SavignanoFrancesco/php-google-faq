@@ -1,0 +1,24 @@
+#header{
+
+    padding: $spacing * 0.8;
+    #upper-header{
+        @include flex(row,space-between,center);
+        .left{
+            @include flex(row,flex-start,center);
+            a{
+                img{
+                    width: 70px;
+
+                }
+            }
+            span{
+                font-size: $font_size * 1.6;
+                padding: 0;
+                margin: 0;
+                padding-left: 2px;
+                padding-bottom: $spacing * 0.4;
+                color: rgba($brand_secondary,0.9);
+            }
+        }
+    }
+}

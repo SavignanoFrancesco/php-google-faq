@@ -37,13 +37,40 @@ h1, h2, h3 h4, h5, p, span {
 }
 
 h1 {
-  font-size: 21px;
+  font-size: 22.4px;
 }
 
 p {
   font-size: 14px;
   padding: 10px 4px;
   line-height: 22px;
+}
+
+#header {
+  padding: 16px;
+}
+#header #upper-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#header #upper-header .left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#header #upper-header .left a img {
+  width: 70px;
+}
+#header #upper-header .left span {
+  font-size: 22.4px;
+  padding: 0;
+  margin: 0;
+  padding-left: 2px;
+  padding-bottom: 8px;
+  color: rgba(60, 64, 67, 0.9);
 }
 
 #faq-section .container {
