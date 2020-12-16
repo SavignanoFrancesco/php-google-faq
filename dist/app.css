@@ -42,4 +42,9 @@ h1 {
 
 p {
   font-size: 16.8px;
+  padding: 10px 4px;
+}
+
+#faq-section .container {
+  padding: 80px;
 }
